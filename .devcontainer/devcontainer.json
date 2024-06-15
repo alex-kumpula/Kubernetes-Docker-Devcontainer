@@ -15,7 +15,13 @@
 			"helm": "latest",
 			"minikube": "none"
 		},
-		"./local-features/copy-kube-config": {}
+		"./local-features/copy-kube-config": {},
+		"ghcr.io/mpriscella/features/sops:1": {},
+		"ghcr.io/rio/features/k9s:1": {},
+		"ghcr.io/rio/features/kustomize:1": {},
+		"ghcr.io/rio/features/k3d:1": {},
+		"ghcr.io/devcontainers-contrib/features/argo-cd:1": {},
+		"ghcr.io/goldsam/dev-container-features/flux2:1": {}
 	},
 
 	"remoteEnv": {
